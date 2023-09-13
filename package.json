@@ -1,20 +1,53 @@
 {
   "name": "@twilify/vue",
   "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Twilify SDK for Vue",
+  "main": "lib/index.js",
+  "types": "lib/types/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "exports": {
+    ".": {
+      "import": "lib/index.js",
+      "require": "lib/index.js",
+      "types": "lib/types/index.d.ts"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Twilify/sdk-vue.git"
+  },
+  "keywords": [
+    "sdk",
+    "vue",
+    "cdn",
+    "cms",
+    "api",
+    "rest",
+    "web",
+    "typescript"
+  ],
+  "author": "Twilify",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Twilify/sdk-vue/issues"
+  },
+  "homepage": "https://github.com/Twilify/sdk-vue#readme",
   "dependencies": {
-    "@twilify/sdk": ">=0.2.1",
+    "@twilify/sdk": ">=0.3.0",
     "vue": ">=3.0.0"
   },
   "devDependencies": {
-    "tsc": "^2.0.4",
     "typescript": "^5.2.2"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
 }

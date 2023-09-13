@@ -6,16 +6,13 @@ settings:
 
 dependencies:
   '@twilify/sdk':
-    specifier: ^0.2.1
-    version: 0.2.1
+    specifier: '>=0.2.4'
+    version: 0.2.4
   vue:
     specifier: '>=3.0.0'
     version: 3.3.4
 
 devDependencies:
-  tsc:
-    specifier: ^2.0.4
-    version: 2.0.4
   typescript:
     specifier: ^5.2.2
     version: 5.2.2
@@ -57,8 +54,8 @@ packages:
     resolution: {integrity: sha512-W6CLUJ2eBMw3Rec70qrsEW0jOm/3twwJv21mrmj2yORiaVmVYGS4sSS5yUwvQc1ZlDLYGPnClVWmUUMagKNsfA==}
     dev: false
 
-  /@twilify/sdk@0.2.1:
-    resolution: {integrity: sha512-QkCGpEBaknqBGEGcE9Yi40FtoG9N2yLQwOy9/+fv9tF46BvwNQP4gWCMhTGxSLafH3RALNMyvl/05kbr+ZfxFA==}
+  /@twilify/sdk@0.2.4:
+    resolution: {integrity: sha512-iB2mtJWBpXlL95JugKjpuc9dpdHODV3AJ57GfNVpYVgaFtOwGGbBUYvdRh2ZHzVx0sJWP9BhFU/s2lMXsKovmg==}
     engines: {node: '>=16.0.0'}
     dependencies:
       '@microsoft/fetch-event-source': 2.0.1
@@ -223,11 +220,6 @@ packages:
     resolution: {integrity: sha512-/OaKK0xYrs3DmxRYqL/yDc+FxFUVYhDlXMhRmv3z915w2HF1tnN1omB354j8VUGO/hbRzyD6Y3sA7v7GS/ceog==}
     engines: {node: '>=4'}
     dev: false
-
-  /tsc@2.0.4:
-    resolution: {integrity: sha512-fzoSieZI5KKJVBYGvwbVZs/J5za84f2lSTLPYf6AGiIf43tZ3GNrI1QzTLcjtyDDP4aLxd46RTZq1nQxe7+k5Q==}
-    hasBin: true
-    dev: true
 
   /typescript@5.2.2:
     resolution: {integrity: sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==}
